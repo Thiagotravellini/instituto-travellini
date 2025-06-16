@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Instituto Travellini</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <style>
+    body { margin: 0; font-family: 'Roboto', sans-serif; color: #333; background-color: #f5f7fa; }
+    header { background: #1d3557; color: white; padding: 40px 20px; text-align: center; }
+    header h1 { margin: 0; font-size: 2.5em; }
+    header p { margin: 10px 0 20px; font-size: 1.2em; }
+    .cta-btn { background-color: #2a9d8f; color: white; padding: 12px 24px; text-decoration: none; border-radius: 8px; font-weight: bold; }
+    section { padding: 60px 20px; max-width: 1200px; margin: auto; }
+    .courses, .reasons, .testimonials { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; }
+    .card { background: white; border-radius: 8px; padding: 20px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+    .cta-form input, .cta-form select, .cta-form button { width: 100%; padding: 10px; margin-top: 10px; border-radius: 4px; border: 1px solid #ccc; }
+    footer { background: #1d3557; color: white; padding: 20px; text-align: center; }
+    footer a { color: #a8dadc; text-decoration: none; margin: 0 10px; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Capacite-se para salvar vidas!</h1>
+    <p>Instituto Travellini - Ação e Conhecimento para Salvar Vidas</p>
+    <a href="#formulario" class="cta-btn">Quero me inscrever</a>
+  </header>
+
+  <section>
+    <h2>Sobre o Instituto Travellini</h2>
+    <p>Com mais de 10 anos de experiência, oferecemos treinamentos com certificação reconhecida, metodologia prática e instrutores altamente qualificados.</p>
+  </section>
+
+  <section>
+    <h2>Cursos Oferecidos</h2>
+    <div class="courses">
+      <div class="card">
+        <h3>Primeiros Socorros</h3>
+      </div>
+      <div class="card">
+        <h3>APH – Atendimento Pré-Hospitalar</h3>
+      </div>
+      <div class="card">
+        <h3>Suporte Básico de Vida (BLS)</h3>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Depoimentos</h2>
+    <div class="testimonials">
+      <div class="card">
+        <p>“Treinamento incrível! Metodologia clara e instrutor excelente.”</p>
+        <strong>– Ana Paula, RH de empresa</strong>
+      </div>
+      <div class="card">
+        <p>“Os simulados práticos me prepararam para situações reais.”</p>
+        <strong>– João Marcos, aluno</strong>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Nossa Equipe e Certificação</h2>
+    <p>Todos os nossos cursos oferecem certificado com validade nacional. Instrutores qualificados como Thiago Travellini, enfermeiro pós-graduado em urgência e emergência, com vasta experiência hospitalar e como docente.</p>
+  </section>
+
+  <section>
+    <h2>Por que escolher nossos treinamentos?</h2>
+    <div class="reasons">
+      <div class="card">Metodologia prática</div>
+      <div class="card">Simulações realistas</div>
+      <div class="card">Turmas reduzidas</div>
+      <div class="card">Certificado válido nacionalmente</div>
+    </div>
+  </section>
+
+  <section id="formulario">
+    <h2>Inscreva-se Agora</h2>
+    <form class="cta-form">
+      <input type="text" placeholder="Nome completo" required>
+      <input type="email" placeholder="E-mail" required>
+      <input type="tel" placeholder="Telefone" required>
+      <select>
+        <option value="">Selecione o curso de interesse</option>
+        <option>Primeiros Socorros</option>
+        <option>APH</option>
+        <option>Suporte Básico de Vida</option>
+      </select>
+      <button type="submit">Enviar Inscrição</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>Contato: (12) 98161-0433 | E-mail: ttravellini@gmail.com</p>
+    <p>
+      <a href="#">Facebook</a> |
+      <a href="#">Instagram</a> |
+      <a href="https://wa.me/5512981610433" target="_blank">WhatsApp</a>
+    </p>
+    <p>&copy; 2025 Instituto Travellini</p>
+  </footer>
+</body>
+</html>
